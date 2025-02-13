@@ -5,7 +5,7 @@ import { bot } from './bot'; // Assuming bot is exported from another file
 const app = express();
 const port = process.env.PORT || 3000;
 
-app.get('/update-bot', async (req, res) => {
+app.get('/update', async (req, res) => {
     try {
         bot.handleUpdate(req.body)
         res.send('Bot updated and launched successfully!');

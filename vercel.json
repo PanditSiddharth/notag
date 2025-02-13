@@ -1,6 +1,6 @@
 {
     "functions": {
-        "update": {
+        "": {
             "maxDuration": 60
         }
     }

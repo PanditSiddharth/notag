@@ -1,0 +1,32 @@
+{
+  "name": "notag",
+  "version": "1.0.0",
+  "description": "Bot which protects anyone from mentioned by any user",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node index.ts"
+  },
+  "keywords": [
+    "No Mention",
+    "Bot",
+    "Protection",
+    "No Mention Bot",
+    "Telegram",
+    "Telegraf",
+    "bot"
+  ],
+  "author": "PanditSiddharth",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.13.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.10.0",
+    "telegraf": "^4.16.3",
+    "ts-node": "^10.9.2"
+  }
+}
